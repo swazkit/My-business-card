@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #23252C;
+}
+
+h1, h2, h3 {
+    font-family: "Inter", sans-serif;    
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h3 {
+    padding-block: 2px;
+    font-size: 12.8px;
+    font-weight: 400;
+    color: #F3BF99;
+}
+
+p {
+    font-size: 10.24px;
+    line-height: 150%;
+    padding-block: 5px;
+    font-family: "Noto Sans", sans-serif;
+    color: #DCDCDC;
+}
+
+.email-button > i {
+    color: #1E1F26;
+}
+
+.linkedin-button > i {
+    color: #FFFFFF;
+}
+
+small {
+    font-size: 10.25px;
+    line-height: 150%;
+}
+
+.card {
+    width: 317px;
+    background-color: #1A1B21;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card--info {
+    padding-block: calc(435px - 414px);
+    padding-inline: calc(225px - 190px);
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-family: 'Noto Sans';
+    padding-block: 20px;
+}
+
+.email-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #23252C;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    height: 34px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.linkedin-button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    background-color: #5093E2;
+    height: 34px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.about {
+    text-align: left;
+    padding-block: 20px;
+}
+
+.interest {
+    text-align: left;
+
+}
+
+.footer {
+    height: 64px;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-inline: 100px;
+    font-size: 25px;
+}
+
+.footer i {
+    color: #918E9B;    
+}
